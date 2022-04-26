@@ -1,3 +1,5 @@
 function addArrayProperty(obj, key, arr) {
-  // your code here
+  arr.push(obj);
+    
 }
+

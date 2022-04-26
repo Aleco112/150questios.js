@@ -1,3 +1,7 @@
 function addFullNameProperty(obj) {
-  // tu codigo aqui
+  var name = obj.firstName;
+  var surname = obj.lastName;
+  obj.fullName = name+" "+surname;
+  return obj;
+ 
 }
